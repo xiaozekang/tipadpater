@@ -15,7 +15,7 @@ class MVTec_MC(DatasetBase):
         self.dataset_dir = os.path.join(root, self.dataset_dir)
         self.image_dir = os.path.join(self.dataset_dir)
 
-        with open('/data2/zekang/Tip-Adapter/category_tree_2.json', 'r') as f:
+        with open('/data2/zekang/data/mvtec/category_tree_2.json', 'r') as f:
             category_tree = json.load(f)
         category_templates = category_tree[classname]
         classnames = []
