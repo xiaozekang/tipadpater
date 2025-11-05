@@ -53,6 +53,9 @@ def run_tip_adapter(cfg, cache_keys, cache_values, val_features, val_labels, tes
     clip_logits = 100. * test_features @ clip_weights
     acc = cls_acc(clip_logits, test_labels)
     print("\n**** Zero-shot CLIP's test accuracy: {:.2f}. ****\n".format(acc))
+    with open('mvtec_mc_vitl.log', 'a') as f:
+        f.write(f"classname:{cfg['classname']} shots:{cfg['shots']} Zero-shot CLIP's test accuracy:{acc}\n")
+
 
     # Tip-Adapter    
     affinity = test_features @ cache_keys
@@ -61,6 +64,8 @@ def run_tip_adapter(cfg, cache_keys, cache_values, val_features, val_labels, tes
     tip_logits = clip_logits + cache_logits * best_alpha
     acc = cls_acc(tip_logits, test_labels)
     print("**** Tip-Adapter's test accuracy: {:.2f}. ****\n".format(acc))
+    with open('mvtec_mc_vitl.log', 'a') as f:
+        f.write(f"classname:{cfg['classname']} shots:{cfg['shots']} Tip-Adapter's test accuracy:{acc}\n")
 
 
 def run_tip_adapter_F(cfg, cache_keys, cache_values, val_features, val_labels, test_features, test_labels, clip_weights, clip_model, train_loader_F):
@@ -141,7 +146,7 @@ def run_tip_adapter_F(cfg, cache_keys, cache_values, val_features, val_labels, t
     print("**** Tip-Adapter-F's test accuracy: {:.2f}. ****\n".format(max(best_acc, acc)))
 
     with open('mvtec_mc_vitl.log', 'a') as f:
-        f.write(f"{cfg['classname']} {cfg['shots']} {max(best_acc, acc)}\n")
+        f.write(f"classname:{cfg['classname']} shots:{cfg['shots']} Tip-Adapter-F's test accuracy:{max(best_acc, acc)}\n")
 
 
 def main():

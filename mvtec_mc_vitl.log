@@ -91,4 +91,159 @@ zipper 1 24.503311258278146
 zipper 2 37.74834437086093
 zipper 4 46.35761589403973
 
+10 10 1 1.17
+bottle 1 46.98795180722892
+bottle 2 75.90361445783132
+bottle 4 77.10843373493977
+cable 1 38.0
+cable 2 44.0
+cable 4 65.33333333333333
+capsule 1 30.303030303030305
+capsule 2 34.84848484848485
+capsule 4 43.18181818181818
+carpet 1 33.333333333333336
+carpet 2 72.64957264957265
+carpet 4 78.63247863247864
+grid 1 32.05128205128205
+grid 2 56.41025641025641
+grid 4 82.05128205128206
+hazelnut 1 61.81818181818182
+hazelnut 2 82.72727272727273
+hazelnut 4 91.81818181818181
 
+10 10 1 1.17 固定训练为前shot个
+classname:bottle shots:1 Zero-shot CLIP's test accuracy:24.096385542168676
+classname:bottle shots:1 Tip-Adapter's test accuracy:43.373493975903614
+classname:bottle shots:1 Tip-Adapter-F's test accuracy:46.98795180722892
+classname:bottle shots:2 Zero-shot CLIP's test accuracy:24.096385542168676
+classname:bottle shots:2 Tip-Adapter's test accuracy:51.80722891566265
+classname:bottle shots:2 Tip-Adapter-F's test accuracy:69.87951807228916
+classname:bottle shots:4 Zero-shot CLIP's test accuracy:24.096385542168676
+classname:bottle shots:4 Tip-Adapter's test accuracy:69.87951807228916
+classname:bottle shots:4 Tip-Adapter-F's test accuracy:71.08433734939759
+classname:cable shots:1 Zero-shot CLIP's test accuracy:6.0
+classname:cable shots:1 Tip-Adapter's test accuracy:9.333333333333334
+classname:cable shots:1 Tip-Adapter-F's test accuracy:43.333333333333336
+classname:cable shots:2 Zero-shot CLIP's test accuracy:6.0
+classname:cable shots:2 Tip-Adapter's test accuracy:22.0
+classname:cable shots:2 Tip-Adapter-F's test accuracy:48.666666666666664
+classname:cable shots:4 Zero-shot CLIP's test accuracy:6.0
+classname:cable shots:4 Tip-Adapter's test accuracy:48.666666666666664
+classname:cable shots:4 Tip-Adapter-F's test accuracy:66.0
+classname:capsule shots:1 Zero-shot CLIP's test accuracy:18.939393939393938
+classname:capsule shots:1 Tip-Adapter's test accuracy:18.939393939393938
+classname:capsule shots:1 Tip-Adapter-F's test accuracy:36.36363636363637
+classname:capsule shots:2 Zero-shot CLIP's test accuracy:18.939393939393938
+classname:capsule shots:2 Tip-Adapter's test accuracy:30.303030303030305
+classname:capsule shots:2 Tip-Adapter-F's test accuracy:40.15151515151515
+classname:capsule shots:4 Zero-shot CLIP's test accuracy:18.939393939393938
+classname:capsule shots:4 Tip-Adapter's test accuracy:35.60606060606061
+classname:capsule shots:4 Tip-Adapter-F's test accuracy:43.93939393939394
+classname:carpet shots:1 Zero-shot CLIP's test accuracy:23.076923076923077
+classname:carpet shots:1 Tip-Adapter's test accuracy:30.76923076923077
+classname:carpet shots:1 Tip-Adapter-F's test accuracy:34.18803418803419
+classname:carpet shots:2 Zero-shot CLIP's test accuracy:23.076923076923077
+classname:carpet shots:2 Tip-Adapter's test accuracy:51.282051282051285
+classname:carpet shots:2 Tip-Adapter-F's test accuracy:71.7948717948718
+classname:carpet shots:4 Zero-shot CLIP's test accuracy:23.076923076923077
+classname:carpet shots:4 Tip-Adapter's test accuracy:74.35897435897436
+classname:carpet shots:4 Tip-Adapter-F's test accuracy:78.63247863247864
+classname:grid shots:1 Zero-shot CLIP's test accuracy:14.102564102564102
+classname:grid shots:1 Tip-Adapter's test accuracy:21.794871794871796
+classname:grid shots:1 Tip-Adapter-F's test accuracy:24.358974358974358
+classname:grid shots:2 Zero-shot CLIP's test accuracy:14.102564102564102
+classname:grid shots:2 Tip-Adapter's test accuracy:34.61538461538461
+classname:grid shots:2 Tip-Adapter-F's test accuracy:58.97435897435897
+classname:grid shots:4 Zero-shot CLIP's test accuracy:14.102564102564102
+classname:grid shots:4 Tip-Adapter's test accuracy:51.282051282051285
+classname:grid shots:4 Tip-Adapter-F's test accuracy:82.05128205128206
+classname:hazelnut shots:1 Zero-shot CLIP's test accuracy:50.0
+classname:hazelnut shots:1 Tip-Adapter's test accuracy:65.45454545454545
+classname:hazelnut shots:1 Tip-Adapter-F's test accuracy:67.27272727272727
+classname:hazelnut shots:2 Zero-shot CLIP's test accuracy:50.0
+classname:hazelnut shots:2 Tip-Adapter's test accuracy:73.63636363636364
+classname:hazelnut shots:2 Tip-Adapter-F's test accuracy:84.54545454545455
+classname:hazelnut shots:4 Zero-shot CLIP's test accuracy:50.0
+classname:hazelnut shots:4 Tip-Adapter's test accuracy:81.81818181818181
+classname:hazelnut shots:4 Tip-Adapter-F's test accuracy:90.9090909090909
+classname:leather shots:1 Zero-shot CLIP's test accuracy:38.70967741935484
+classname:leather shots:1 Tip-Adapter's test accuracy:54.03225806451613
+classname:leather shots:1 Tip-Adapter-F's test accuracy:86.29032258064517
+classname:leather shots:2 Zero-shot CLIP's test accuracy:38.70967741935484
+classname:leather shots:2 Tip-Adapter's test accuracy:80.64516129032258
+classname:leather shots:2 Tip-Adapter-F's test accuracy:83.06451612903226
+classname:leather shots:4 Zero-shot CLIP's test accuracy:38.70967741935484
+classname:leather shots:4 Tip-Adapter's test accuracy:81.45161290322581
+classname:leather shots:4 Tip-Adapter-F's test accuracy:92.74193548387096
+classname:metal_nut shots:1 Zero-shot CLIP's test accuracy:19.130434782608695
+classname:metal_nut shots:1 Tip-Adapter's test accuracy:20.0
+classname:metal_nut shots:1 Tip-Adapter-F's test accuracy:51.30434782608695
+classname:metal_nut shots:2 Zero-shot CLIP's test accuracy:19.130434782608695
+classname:metal_nut shots:2 Tip-Adapter's test accuracy:39.130434782608695
+classname:metal_nut shots:2 Tip-Adapter-F's test accuracy:52.17391304347826
+classname:metal_nut shots:4 Zero-shot CLIP's test accuracy:19.130434782608695
+classname:metal_nut shots:4 Tip-Adapter's test accuracy:46.08695652173913
+classname:metal_nut shots:4 Tip-Adapter-F's test accuracy:65.21739130434783
+classname:pill shots:1 Zero-shot CLIP's test accuracy:13.77245508982036
+classname:pill shots:1 Tip-Adapter's test accuracy:19.760479041916167
+classname:pill shots:1 Tip-Adapter-F's test accuracy:33.532934131736525
+classname:pill shots:2 Zero-shot CLIP's test accuracy:13.77245508982036
+classname:pill shots:2 Tip-Adapter's test accuracy:13.77245508982036
+classname:pill shots:2 Tip-Adapter-F's test accuracy:29.940119760479043
+classname:pill shots:4 Zero-shot CLIP's test accuracy:13.77245508982036
+classname:pill shots:4 Tip-Adapter's test accuracy:26.94610778443114
+classname:pill shots:4 Tip-Adapter-F's test accuracy:46.10778443113772
+classname:screw shots:1 Zero-shot CLIP's test accuracy:15.0
+classname:screw shots:1 Tip-Adapter's test accuracy:27.5
+classname:screw shots:1 Tip-Adapter-F's test accuracy:33.75
+classname:screw shots:2 Zero-shot CLIP's test accuracy:15.0
+classname:screw shots:2 Tip-Adapter's test accuracy:30.0
+classname:screw shots:2 Tip-Adapter-F's test accuracy:34.375
+classname:screw shots:4 Zero-shot CLIP's test accuracy:15.0
+classname:screw shots:4 Tip-Adapter's test accuracy:33.125
+classname:screw shots:4 Tip-Adapter-F's test accuracy:28.75
+classname:tile shots:1 Zero-shot CLIP's test accuracy:43.58974358974359
+classname:tile shots:1 Tip-Adapter's test accuracy:63.24786324786325
+classname:tile shots:1 Tip-Adapter-F's test accuracy:61.53846153846154
+classname:tile shots:2 Zero-shot CLIP's test accuracy:43.58974358974359
+classname:tile shots:2 Tip-Adapter's test accuracy:84.61538461538461
+classname:tile shots:2 Tip-Adapter-F's test accuracy:84.61538461538461
+classname:tile shots:4 Zero-shot CLIP's test accuracy:43.58974358974359
+classname:tile shots:4 Tip-Adapter's test accuracy:89.74358974358974
+classname:tile shots:4 Tip-Adapter-F's test accuracy:94.01709401709402
+classname:toothbrush shots:1 Zero-shot CLIP's test accuracy:73.80952380952381
+classname:toothbrush shots:1 Tip-Adapter's test accuracy:76.19047619047619
+classname:toothbrush shots:1 Tip-Adapter-F's test accuracy:73.80952380952381
+classname:toothbrush shots:2 Zero-shot CLIP's test accuracy:73.80952380952381
+classname:toothbrush shots:2 Tip-Adapter's test accuracy:76.19047619047619
+classname:toothbrush shots:2 Tip-Adapter-F's test accuracy:73.80952380952381
+classname:toothbrush shots:4 Zero-shot CLIP's test accuracy:73.80952380952381
+classname:toothbrush shots:4 Tip-Adapter's test accuracy:78.57142857142857
+classname:toothbrush shots:4 Tip-Adapter-F's test accuracy:73.80952380952381
+classname:transistor shots:1 Zero-shot CLIP's test accuracy:10.0
+classname:transistor shots:1 Tip-Adapter's test accuracy:13.0
+classname:transistor shots:1 Tip-Adapter-F's test accuracy:63.0
+classname:transistor shots:2 Zero-shot CLIP's test accuracy:10.0
+classname:transistor shots:2 Tip-Adapter's test accuracy:15.0
+classname:transistor shots:2 Tip-Adapter-F's test accuracy:66.0
+classname:transistor shots:4 Zero-shot CLIP's test accuracy:10.0
+classname:transistor shots:4 Tip-Adapter's test accuracy:48.0
+classname:transistor shots:4 Tip-Adapter-F's test accuracy:72.0
+classname:wood shots:1 Zero-shot CLIP's test accuracy:44.30379746835443
+classname:wood shots:1 Tip-Adapter's test accuracy:73.41772151898734
+classname:wood shots:1 Tip-Adapter-F's test accuracy:81.0126582278481
+classname:wood shots:2 Zero-shot CLIP's test accuracy:44.30379746835443
+classname:wood shots:2 Tip-Adapter's test accuracy:78.48101265822785
+classname:wood shots:2 Tip-Adapter-F's test accuracy:83.54430379746836
+classname:wood shots:4 Zero-shot CLIP's test accuracy:44.30379746835443
+classname:wood shots:4 Tip-Adapter's test accuracy:83.54430379746836
+classname:wood shots:4 Tip-Adapter-F's test accuracy:86.07594936708861
+classname:zipper shots:1 Zero-shot CLIP's test accuracy:11.258278145695364
+classname:zipper shots:1 Tip-Adapter's test accuracy:21.85430463576159
+classname:zipper shots:1 Tip-Adapter-F's test accuracy:19.867549668874172
+classname:zipper shots:2 Zero-shot CLIP's test accuracy:11.258278145695364
+classname:zipper shots:2 Tip-Adapter's test accuracy:27.814569536423843
+classname:zipper shots:2 Tip-Adapter-F's test accuracy:35.09933774834437
+classname:zipper shots:4 Zero-shot CLIP's test accuracy:11.258278145695364
+classname:zipper shots:4 Tip-Adapter's test accuracy:34.437086092715234
+classname:zipper shots:4 Tip-Adapter-F's test accuracy:41.05960264900662

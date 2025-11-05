@@ -236,7 +236,8 @@ class DatasetBase:
 
             for label, items in tracker.items():
                 if len(items) >= num_shots:
-                    sampled_items = random.sample(items, num_shots)
+                    sampled_items = items[:num_shots]  # 固定训练集
+                    # sampled_items = random.sample(items, num_shots)
                 else:
                     if repeat:
                         sampled_items = random.choices(items, k=num_shots)
